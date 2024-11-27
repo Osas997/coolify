@@ -104,7 +104,7 @@
                             <td class="px-4 py-3">{{ $kontak->nama_aplikasi }}</td>
                             <td class="px-4 py-3"><a href="{{ $kontak->tautan }}">{{ $kontak->tautan }}</a></td>
                             <td class="px-4 py-3">
-                                <img src="{{ asset('storage/upload/kontak/' . $kontak->image) }}" alt="Product Image"
+                                <img src="{{ asset('storage/upload/kontak/' . $kontak->gambar) }}" alt="Product Image"
                                     class="w-16 md:w-24">
                             </td>
                             <td class="px-4 py-3 flex items-center">
